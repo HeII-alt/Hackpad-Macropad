@@ -1,0 +1,16 @@
+{
+    "keyboard_name": "Hackpad RP2040",
+    "url": "",
+    "maintainer": "HackClub",
+    "width": 3,
+    "height": 4,
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"SW1", "x":0, "y":1}, {"label":"SW2", "x":1, "y":1}, {"label":"SW3", "x":2, "y":1},
+                {"label":"SW4", "x":0, "y":2}, {"label":"SW5", "x":1, "y":2}, {"label":"SW6", "x":2, "y":2},
+                {"label":"SW7", "x":0, "y":3}, {"label":"SW8", "x":1, "y":3}, {"label":"SW9", "x":2, "y":3}
+            ]
+        }
+    }
+}
