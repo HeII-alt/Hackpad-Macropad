@@ -1,15 +1,40 @@
 {
-    "keyboard_name": "Hackpad RP2040",
-    "url": "",
-    "maintainer": "HackClub",
+    "keyboard_name": "Hackpad Macropad",
+    "manufacturer": "Bogda",
+    "url": "https://github.com/HeII-alt/Hackpad-Macropad",
+    "maintainer": "HeII-alt",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true,
+        "oled": true,
+        "encoder": true
+    },
+    "matrix_pins": {
+        "cols": ["GP29", "GP0", "GP1"],
+        "rows": ["GP26", "GP27", "GP28"]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP2", "pin_b": "GP3"}
+        ]
+    },
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x9A06",
+        "device_version": "0.0.1"
+    },
     "width": 3,
     "height": 4,
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"label":"SW1", "x":0, "y":1}, {"label":"SW2", "x":1, "y":1}, {"label":"SW3", "x":2, "y":1},
-                {"label":"SW4", "x":0, "y":2}, {"label":"SW5", "x":1, "y":2}, {"label":"SW6", "x":2, "y":2},
-                {"label":"SW7", "x":0, "y":3}, {"label":"SW8", "x":1, "y":3}, {"label":"SW9", "x":2, "y":3}
+                {"label":"SW1", "matrix": [0, 0], "x":0, "y":1}, {"label":"SW2", "matrix": [0, 1], "x":1, "y":1}, {"label":"SW3", "matrix": [0, 2], "x":2, "y":1},
+                {"label":"SW4", "matrix": [1, 0], "x":0, "y":2}, {"label":"SW5", "matrix": [1, 1], "x":1, "y":2}, {"label":"SW6", "matrix": [1, 2], "x":2, "y":2},
+                {"label":"SW7", "matrix": [2, 0], "x":0, "y":3}, {"label":"SW8", "matrix": [2, 1], "x":1, "y":3}, {"label":"SW9", "matrix": [2, 2], "x":2, "y":3}
             ]
         }
     }
