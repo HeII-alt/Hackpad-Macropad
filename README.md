@@ -18,4 +18,11 @@ The top part of the case
 And the bottom part of the case 
 <img width="1920" height="1020" alt="Bottom case part" src="https://github.com/user-attachments/assets/94fc757d-be85-4390-9d4a-05594ec5c7d5" />
 
+Part List:
+1: 9 MX-Style switches
+2: 9 through-hole 1N4148 Diodes
+3: 1 Seeed XIAO RP2040
+4: 1  EC11 Rotary encoders
+5: 1 0.91 inch OLED display
+
 This jurney has been a blast learning new and important tools like KiCAD and Fusion.
