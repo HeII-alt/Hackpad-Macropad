@@ -4,6 +4,8 @@ I have built a Macropad for the Hackpad competition
 This is the entire Macropad
 <img width="1920" height="1020" alt="Entire Macropad" src="https://github.com/user-attachments/assets/dcc9ae33-e912-41d0-8921-92e3aa132ea1" />
 
+<img width="1920" height="1020" alt="Exploded view" src="https://github.com/user-attachments/assets/3d3013ce-3e76-47d6-9930-779bbc730ae1" />
+
 The BCB
 <img width="1920" height="1020" alt="PCB" src="https://github.com/user-attachments/assets/ca8b47f0-60f3-4d1f-baea-a90e5b86e74e" />
 
