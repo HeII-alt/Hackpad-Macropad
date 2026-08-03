@@ -6,7 +6,7 @@ This is the entire Macropad
 
 <img width="1920" height="1020" alt="Exploded view" src="https://github.com/user-attachments/assets/3d3013ce-3e76-47d6-9930-779bbc730ae1" />
 
-The BCB
+The PCB
 <img width="1920" height="1020" alt="PCB" src="https://github.com/user-attachments/assets/ca8b47f0-60f3-4d1f-baea-a90e5b86e74e" />
 
 The Schematic
@@ -21,8 +21,8 @@ And the bottom part of the case
 **Part List:**\
 1: 9 MX-Style switches\
 2: 9 through-hole 1N4148 Diodes\
-3: 1 Seeed XIAO RP2040\
+3: 1 Seed XIAO RP2040\
 4: 1  EC11 Rotary encoders\
 5: 1 0.91 inch OLED display
 
-This jurney has been a blast learning new and important tools like KiCAD and Fusion.
+This journey has been a blast learning new and important tools like KiCAD and Fusion.
